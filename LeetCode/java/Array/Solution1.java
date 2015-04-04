@@ -15,7 +15,7 @@ package LeetCode;
  *   @author wuyan  version 1 
  *   2015-3-25
  */
-import java.sql.Struct;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -55,7 +55,7 @@ public class Solution1 {
     			numbers[i] = n.intValue();
     		}
     		Solution1 s = new Solution1();
-    		int[] result = s.twoSum3(numbers, target);
+    		int[] result = s.twoSum2(numbers, target);
     		System.out.println("index1: " + result[0] + ", index2: " + result[1]);
     	}
     	cin.close();
@@ -75,39 +75,6 @@ public class Solution1 {
     		}
     		else
     			ht.put(numbers[i], i);
-    	}
-		return result; 
-    }
-    
-    /*
-     * version 3
-     * Wrong answer
-     */
-    public int[] twoSum3(int[] numbers, int target) {
-    	
-    	class pair{
-    		int key;
-    		int value;
-    		
-    	}
-    	int[] result = new int[2];
-    	pair[] index = new pair[numbers.length];
-    	for (int i = 0; i < numbers.length; i++) {
-    	}
-    	
-    	Map<Integer, Integer> ht = new HashMap<Integer, Integer>();
-    	
-    	for(int i = 0; i < numbers.length; i++) {
-    		Integer temp = ht.get(numbers[i]);
-    		if (temp == null)
-    			ht.put(numbers[i], i);
-    		temp = ht.get(target - numbers[i]);
-    		if (temp != null && temp < i)
-    		{
-    			result[0] = temp + 1;
-    			result[1] = i + 1;
-    			return result;
-    		}
     	}
 		return result; 
     }

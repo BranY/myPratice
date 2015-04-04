@@ -111,5 +111,6 @@ public class Solution2 {
     			L = L.next;
     		}
     	}
+    	in.close();
     }
 }
