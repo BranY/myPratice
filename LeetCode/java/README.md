@@ -11,7 +11,5 @@ LeetCode Java Solutions
 |5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)|String, DynamicProgramming|Medium|
 |62|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)|Array, DynamicProgramming|Medium|
 |63|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)|Array, DynamicProgramming|Medium|
-<<<<<<< HEAD
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|Array, DynamicProgramming|Medium|
-=======
->>>>>>> 42c82d6ab07296bb15b48619ecbb37caf9636068
+
