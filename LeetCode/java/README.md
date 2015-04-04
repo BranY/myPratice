@@ -3,8 +3,6 @@ LeetCode
 
 LeetCode Java Solutions
 
-(Notes: "&hearts;" means you need buy a book from Leetcode)
-
 | # | Title | tags | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)|Array|Medium|
