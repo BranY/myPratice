@@ -3,7 +3,7 @@ LeetCode
 
 LeetCode Java Solutions
 
-| # | Title | tags | Solution | Difficulty |
+| # | Title | Solution | tags | Difficulty |
 |---| ----- | -------- | ---------- | ------------ |
 |1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/Array/Solution1.java)| Array|Medium|
 |2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/LinkedList/Solution2.java)|LinkedList, Math|Medium|
