@@ -16,5 +16,3 @@ LeetCode Java Solutions
 |62|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/DynimicProgramming/Solution62.java)|Array, DynamicProgramming|Medium|3|
 |63|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/DynimicProgramming/Solution63.java)||Array, DynamicProgramming|Medium|3|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/DynimicProgramming/Solution121.java)|Array, DynamicProgramming|Medium|1|
-
- 
