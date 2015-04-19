@@ -14,8 +14,10 @@ LeetCode Java Solutions
 |7|[Reverse Integer ](https://leetcode.com/problems/reverse-integer/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/Math/Solution7.java)|Math|Easy|3|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/Math/Solution8.java)|Math|Easy|5|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/Math/Solution9.java)|Math|Easy|2|
+|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/DynimicProgramming/Solution10.java)|String,DynamicProgramming,Backtracking|Hard|2|
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/Array/Solution15.java)|String,TwoPointers|Medium|5|
 |16|[Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/Array/Solution16.java)|String,TwoPointers|Medium|1|
+|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/DynimicProgramming/Solution17.java)|String,Backtracking|Medium|2|
 |18|[4Sum](https://leetcode.com/problems/4sum/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/Array/Solution18.java)|String,TwoPointers|Medium|2|
 |62|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/DynimicProgramming/Solution62.java)|Array, DynamicProgramming|Medium|3|
 |63|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/DynimicProgramming/Solution63.java)||Array, DynamicProgramming|Medium|3|
