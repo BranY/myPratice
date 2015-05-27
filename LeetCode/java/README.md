@@ -46,6 +46,7 @@ LeetCode Java Solutions
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/Math/Solution67.java)|Math,String|Easy|2|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/Math/Solution69.java)|Math,BinarySearch|Medium|4|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/DynimicProgramming/Solution70.java)|DynamicProgramming|Medium|4|
+|79|[Word Search](https://leetcode.com/problems/word-search/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/Backtracking/Solution79.java)|Array,Backtracking|Medium|2|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/LinkedList/Solution82.java)|LinkedList|Medium|2|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/LinkedList/Solution83.java)|Easy|3|
 |89|[Gray Code](https://leetcode.com/problems/gray-code/)|[Solution](https://github.com/BranY/myPratice/blob/master/LeetCode/java/Backtracking/Solution89.java)|Backtracking|Medium|2|
