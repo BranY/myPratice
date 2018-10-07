@@ -33,6 +33,8 @@ public class LargestSumOfAverages {
             }
         }
 
+
+
         return dp[len_A][K];
     }
 
@@ -41,5 +43,10 @@ public class LargestSumOfAverages {
         LargestSumOfAverages cls = new LargestSumOfAverages();
         double res = cls.largestSumOfAverages(A, 3);
         System.out.println(res);
+
+        int cou = 21;
+        String str =  Integer.toString(cou);
+        for (char c :  str.toCharArray())
+            System.out.println(c);
     }
 }
