@@ -1,4 +1,4 @@
-package offer;
+package src.java.offer;
 
 /**
  * Created by Yang on 2017/4/23.
