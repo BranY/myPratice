@@ -28,7 +28,7 @@ void nextPermutation(vector<int>& nums) {
     if (size <= 1) {
         return;
     }
-    auto i = size - 2, j = size - 1, k = size - 1;
+    unsigned long i = size - 2, j = size - 1, k = size - 1;
     while (i >=0 && nums[i] >= nums[j]) {
         i--;
         j--;
@@ -47,13 +47,9 @@ void test31() {
     vector<int> A = {1,2,3,4,5,6};
     nextPermutation(A);
 
-    cout << "cbengin:";
-
     vector<int>::iterator it;
     for (it=A.begin(); it!=A.end(); ++it)
         cout << " " << *it;
-
-    cout << endl;
 }
 int main(int argc, char * argv[]) {
    test31();
