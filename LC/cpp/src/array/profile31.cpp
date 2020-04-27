@@ -39,6 +39,6 @@ public:
     void swap(vector<int>& nums, int i, int j) {
         int tmp = nums[i];
         nums[i] = nums[j];
-        nums[j] = nums[i];
+        nums[j] = tmp;
     }
 };
