@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f172a86-151c-4575-a10a-4f15f91c28b3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LC/cpp/src/DP/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC/cpp/src/array/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC/cpp/src/array/profile31.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LC/java/com/edu/nju/Solution76.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LC/cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/cpp/DP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LC/cpp/src/DP/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/cpp/DP/largestSumOfAverage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LC/cpp/src/DP/largestSumOfAverage.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/java/com/edu/nju/array/Problem31.java" beforeDir="false" afterPath="$PROJECT_DIR$/LC/java/com/edu/nju/array/Problem31.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,11 +42,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem31.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem31.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LC/java/com/edu/nju/array/Problem31.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="500">
               <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution76.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LC/java/com/edu/nju/Solution76.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12">
+              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3700">
+              <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -91,6 +115,8 @@
         <option value="$PROJECT_DIR$/LC/java/com/edu/nju/array/Problem34.java" />
         <option value="$PROJECT_DIR$/LC/java/com/edu/nju/array/Problem33.java" />
         <option value="$PROJECT_DIR$/LC/java/com/edu/nju/array/Problem31.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/LC/java/com/edu/nju/Solution76.java" />
       </list>
     </option>
   </component>
@@ -103,7 +129,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="1680" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
@@ -113,8 +139,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,19 +166,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nju" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myPratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myPratice" type="462c0819:PsiDirectoryNode" />
-              <item name="LC" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nju" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,15 +287,21 @@
       <workItem from="1581256591486" duration="235000" />
       <workItem from="1582300274548" duration="227000" />
       <workItem from="1584800386832" duration="201000" />
-      <workItem from="1588001509734" duration="749000" />
+      <workItem from="1588001509734" duration="2780000" />
+      <workItem from="1589305362450" duration="319000" />
+      <workItem from="1589895663780" duration="220000" />
+      <workItem from="1589902197363" duration="611000" />
+      <workItem from="1589907012914" duration="252000" />
+      <workItem from="1590236570805" duration="120000" />
+      <workItem from="1590414477261" duration="570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13220000" />
+    <option name="totallyTimeSpent" value="17343000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
@@ -288,19 +312,19 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32923076" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32923076" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.6039801" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2774228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2979243" />
       <window_info anchor="right" id="Database" order="7" sideWeight="0.49847096" weight="0.32967034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="0" sideWeight="0.50152904" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -312,28 +336,28 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32923076" />
-      <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.50152904" side_tool="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32923076" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2796093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32923076" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="right" id="Database" order="7" sideWeight="0.49847096" weight="0.32967034" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.50152904" side_tool="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32923076" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -348,24 +372,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LC/java/com/edu/nju/array/Problem16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LC/java/com/edu/nju/array/Problem18.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LC/java/com/edu/nju/array/Problem26.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -620,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LC/old/Array/Solution1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -719,8 +724,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LC/java/com/edu/nju/array/Problem31.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="500">
           <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3700">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LC/java/com/edu/nju/Solution76.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
