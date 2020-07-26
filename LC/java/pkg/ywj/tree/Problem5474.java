@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description link:
+ * Description link: https://leetcode-cn.com/problems/number-of-good-leaf-nodes-pairs/
  * Tag:
  * 2020/7/26_19:13  BranY
  */

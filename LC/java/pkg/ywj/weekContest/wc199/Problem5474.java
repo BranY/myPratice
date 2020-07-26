@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description link:
- * Tag:
+ * Description link: https://leetcode-cn.com/problems/number-of-good-leaf-nodes-pairs/
+ * Tag: tree
  * 2020/7/26_19:13  BranY
  */
 public class Problem5474 {

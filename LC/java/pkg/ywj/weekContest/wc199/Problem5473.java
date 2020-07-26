@@ -1,4 +1,4 @@
-package pkg.ywj.str;
+package pkg.ywj.weekContest.wc199;
 
 /**
  * Description link: https://leetcode-cn.com/problems/bulb-switcher-iv/

@@ -1,8 +1,4 @@
-package pkg.ywj.dp;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package pkg.ywj.weekContest.wc199;
 
 /**
  * Description link: https://leetcode-cn.com/problems/string-compression-ii/
