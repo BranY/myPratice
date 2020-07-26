@@ -42,6 +42,8 @@ private:
 
 int main(int argc, char * argv[]) {
     Problem5142 su = Problem5142();
+    vector<vector<int>> in(3, vector<int>(3, 0));
+    vector<vector<int>> dp(3, vector<int>(3, 1));
 
     cout << su.getLengthOfOptimalCompression("aaabcccd", 2) << std::endl; // 4
    // cout << su.getLengthOfOptimalCompression("aabbaa", 2) << std::endl; // 2
