@@ -5,5 +5,4 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(CMAKE_BUILD_TYPE Debug)
 
-add_executable(cpp
-        src/DP/Problem5142.cpp)
+add_executable(cpp src/other/HotelManageSystem.cpp)
