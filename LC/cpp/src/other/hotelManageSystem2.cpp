@@ -2,10 +2,6 @@
 // Created by 杨文家 on 2020/8/3.
 //
 
-/*住宿管理模块：包括客房预订、入住登记、客人续往、调房登记、退房结账
-客房管理模块：包括客房设置、客房查询、宿费提醒
-查询统计模块：包括预订房查询、住宿查询、退房查询、客房宿费统计
-*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -54,7 +50,7 @@ typedef struct patron {
     char sex[5];//客人性别
     checkInTime time;//入住时间
     int timelong;//租房时长
-    long int s;
+    long int s; //标记时间
 } parton;
 
 parton hash1[MAX];//定义客人的哈希表
