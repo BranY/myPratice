@@ -237,7 +237,8 @@ void checkIn(RoomInfo *room, GuestInfo **guest) {
         p->status = 1; // 更新房间状态
         p->guest = cur; // 更新房间的客人信息
 
-        printf("客人：%s, 即将入住酒店房间号：%d, 住店：%d天， 您预计将花费：%lf， 祝您住店愉快.\n", cur->name, cur->guestNum, cur->stayTime, cur->totalCost);
+        printf("客人：%s, 即将入住酒店房间号：%d, 住店：%d天， 您预计将花费：%lf， 祝您住店愉快.\n", cur->name, cur->guestNum, cur->stayTime,
+               cur->totalCost);
     }
 }
 
