@@ -7,4 +7,4 @@ set(CMAKE_BUILD_TYPE Debug)
 
 # src/other/hotelManageSystem.h src/other/hotelManageSystem.c
 # src/linkedList/linkedList.c
-add_executable(cpp src/linkedList/linkedList.c)
+add_executable(cpp src/other/hotelManageSystem.h src/other/hotelManageSystem.c)
