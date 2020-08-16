@@ -42,3 +42,8 @@ public:
         nums[j] = tmp;
     }
 };
+
+int main(int argc, char * argv[]) {
+    printf("test multi dir cpp\n");
+    return 0;
+}

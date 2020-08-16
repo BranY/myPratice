@@ -7,6 +7,17 @@ set (Demo_VERSION_MINOR 0) # 项目次版本号
 set(PROJECT_NAME cpp)
 project(${PROJECT_NAME} LANGUAGES CXX C VERSION 1.2.0)
 
+# 编译设置
+set(CMAKE_CXX_STANDARD 11)
+# debug设置
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
+set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
+
+
+file(MAKE_DIRECTORY bin)
+set (CMAKE_RUNTIME_OUTPUT_DIRECTORY bin/)
+
 set (CMAKE_INCLUDE_CURRENT_DIR ON)
 
 SET (CMAKE_LIBRARY_OUTPUT_DIRECTORY
@@ -31,12 +42,16 @@ SET (CMAKE_ARCHIVE_OUTPUT_DIRECTORY
 include (${CMAKE_ROOT}/Modules/CheckFunctionExists.cmake)
 check_function_exists (pow HAVE_POW)
 
-# 编译设置
-set(CMAKE_CXX_STANDARD 11)
-# debug设置
-set(CMAKE_BUILD_TYPE Debug)
-set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
-set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
+# 下面写一些自定义的头文件函数
+# https://github.com/anonymouss/my-leetcode-cpp/tree/master/utils
+include_directories (include)
+
+# if compiler is Clang, link libc++, otherwise, link default libstdc++
+if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
+ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
+ set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -stdlib=libc++ -lc++abi")
+endif()
+
 
 # 加入一个配置头文件，用于处理 CMake 对源码的设置
 configure_file (
@@ -86,10 +101,41 @@ if(Boost_FOUND)
  # target_link_libraries (${PROJECT_NAME} ${Boost_LIBRARIES})
 endif()
 
+# 多CPP文件目录
+file (GLOB_RECURSE files src/DP/*.cpp)
+foreach (file ${files})
+ string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
+ add_executable (${exe} ${file})
+ message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
+endforeach ()
+
+file (GLOB files src/array/*cpp)
+foreach (file ${files})
+ string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
+ add_executable (${exe} ${file})
+ # 子目录中添加编译选项
+ # target_link_libraries(${exe} pthread)
+ # target_link_libraries (${exe} ${Boost_LIBRARIES})
+ message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
+endforeach ()
+
+file (GLOB_RECURSE files src/linkedList/*cpp)
+foreach (file ${files})
+ string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
+ add_executable (${exe} ${file})
+ message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
+endforeach ()
+
+file (GLOB_RECURSE files src/hotel/*c)
+foreach (file ${files})
+ string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
+ add_executable (${exe} ${file})
+ message (\ \ \ \ --\ src/${exe}.c\ will\ be\ compiled\ to\ bin/${exe})
+endforeach ()
+
 # 编译源码生成目标
-# src/other/hotelManageSystem.h src/other/hotelManageSystem.c
-# src/linkedList/linkedList.c
 add_executable(${PROJECT_NAME} main.cpp)
+#add_executable(${PROJECT_NAME} src/hotel/hotelManageSystem.h src/hotel/hotelManageSystem.c)
 
 #添加链接库
 #target_link_libraries(${PROJECT_NAME} ArrayFunctions)
