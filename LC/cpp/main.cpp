@@ -54,12 +54,15 @@ void test31() {
 }
 int main(int argc, char * argv[]) {
    test31();
-    printf("\nPlease input any number:");
-    using namespace boost::lambda;
-    typedef std::istream_iterator<int> in;
+   printf("\nExp(0): %lf", exp(0));
+   printf("\nExp(1): %lf", exp(1));
+   double ex = exp((1 / 1000 * 2 - 1) * 6);
+   printf("\nExp(x): %lf", ex/(ex + 1));
+   printf("\nExp(2): %lf", exp(2));
 
-    std::for_each(
-            in(std::cin), in(), std::cout << (_1 * 3) << " " );
-
-    return 0;
+   printf("\nPlease input any number:\n");
+   using namespace boost::lambda;
+   typedef std::istream_iterator<int> in;
+   std::for_each(in(std::cin), in(), std::cout << (_1 * 3) << " \n" );
+   return 0;
 }
