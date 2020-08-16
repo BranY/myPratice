@@ -101,8 +101,9 @@ int main(int argc, char * argv[]) {
     A.push_back(3);
     A.push_back(9);
 
-    double largestSum = largestSumOfAverages(A, 1);
+    std::cout <<  largestSumOfAverages(A, 1) << std::endl;
+    std::cout <<  largestSumOfAverages(A, 2) << std::endl;
+    std::cout <<  largestSumOfAverages(A, 4) << std::endl;
 
-    std::cout << largestSum << std::endl;
     return 0;
 }

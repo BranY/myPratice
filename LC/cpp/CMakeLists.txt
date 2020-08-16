@@ -102,27 +102,13 @@ if(Boost_FOUND)
 endif()
 
 # 多CPP文件目录
-file (GLOB_RECURSE files src/DP/*.cpp)
+file (GLOB_RECURSE files src/*.cpp)
 foreach (file ${files})
  string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
  add_executable (${exe} ${file})
- message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
-endforeach ()
-
-file (GLOB files src/array/*cpp)
-foreach (file ${files})
- string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
- add_executable (${exe} ${file})
- # 子目录中添加编译选项
- # target_link_libraries(${exe} pthread)
- # target_link_libraries (${exe} ${Boost_LIBRARIES})
- message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
-endforeach ()
-
-file (GLOB_RECURSE files src/linkedList/*cpp)
-foreach (file ${files})
- string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
- add_executable (${exe} ${file})
+  # 子目录中添加编译选项
+  target_link_libraries(${exe} pthread)
+  target_link_libraries (${exe} ${Boost_LIBRARIES})
  message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
 endforeach ()
 

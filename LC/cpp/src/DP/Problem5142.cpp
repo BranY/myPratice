@@ -46,7 +46,7 @@ int main(int argc, char * argv[]) {
     vector<vector<int>> dp(3, vector<int>(3, 1));
 
     cout << su.getLengthOfOptimalCompression("aaabcccd", 2) << std::endl; // 4
-   // cout << su.getLengthOfOptimalCompression("aabbaa", 2) << std::endl; // 2
-   // cout << su.getLengthOfOptimalCompression("aaaaaaaaaaa", 0) << std::endl; // 3
+    cout << su.getLengthOfOptimalCompression("aabbaa", 2) << std::endl; // 2
+    cout << su.getLengthOfOptimalCompression("aaaaaaaaaaa", 0) << std::endl; // 3
     return 0;
 }
