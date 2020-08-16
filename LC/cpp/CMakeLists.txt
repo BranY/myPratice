@@ -43,7 +43,6 @@ include (${CMAKE_ROOT}/Modules/CheckFunctionExists.cmake)
 check_function_exists (pow HAVE_POW)
 
 # 下面写一些自定义的头文件函数
-# https://github.com/anonymouss/my-leetcode-cpp/tree/master/utils
 include_directories (include)
 
 # if compiler is Clang, link libc++, otherwise, link default libstdc++
@@ -101,7 +100,8 @@ if(Boost_FOUND)
  # target_link_libraries (${PROJECT_NAME} ${Boost_LIBRARIES})
 endif()
 
-# 多CPP文件目录
+# 多CPP文件目录 (多个main函数）
+# https://github.com/anonymouss/my-leetcode-cpp/tree/master/utils
 file (GLOB_RECURSE files src/*.cpp)
 foreach (file ${files})
  string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
@@ -112,7 +112,7 @@ foreach (file ${files})
  message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
 endforeach ()
 
-file (GLOB_RECURSE files src/hotel/*c)
+file (GLOB_RECURSE files src/*.c)
 foreach (file ${files})
  string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
  add_executable (${exe} ${file})
@@ -121,7 +121,6 @@ endforeach ()
 
 # 编译源码生成目标
 add_executable(${PROJECT_NAME} main.cpp)
-#add_executable(${PROJECT_NAME} src/hotel/hotelManageSystem.h src/hotel/hotelManageSystem.c)
 
 #添加链接库
 #target_link_libraries(${PROJECT_NAME} ArrayFunctions)
@@ -138,7 +137,7 @@ enable_testing()
 #add_test (test_run Demo 5 2)
 
 # 测试帮助信息是否可以正常提示
-add_test (test_usage cpp)
+add_test (test_usage ${PROJECT_NAME})
 set_tests_properties (test_usage
         PROPERTIES PASS_REGULAR_EXPRESSION "Usage: .* base exponent")
 
