@@ -120,7 +120,7 @@ int getDayDiff(TimeInfo *in, TimeInfo *out) {
 
     m2 = (out->month + 9) % 12;
     y2 = out->year - m2 / 10;
-    d2 = 365 * y2 + (y2 / 4 - y2 / 100 + y2 / 400) + (m2 * 365 + 5) / 10 + (out->day - 1);
+    d2 = 365 * y2 + (y2 / 4 - y2 / 100 + y2 / 400) + (m2 * 306 + 5) / 10 + (out->day - 1);
 
     return (d2 - d1);
 }
